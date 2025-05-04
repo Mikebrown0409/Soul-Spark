@@ -1,54 +1,120 @@
-# SoulSpark
+# SoulSpark 🌟
 
-> A therapeutic companion game focused on emotional well-being
+<div align="center">
 
-## Overview
+![Status](https://img.shields.io/badge/Status-Early%20Development-yellow)
+![Engine](https://img.shields.io/badge/Current-Three.js-brightgreen)
+![Future](https://img.shields.io/badge/Planned-Unity-blue)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
-SoulSpark is an indie game that combines 3D exploration, a customizable companion (the Spark), and therapeutic mini-games to create a calming, supportive experience. Currently built with Three.js and designed as a Progressive Web App, it aims to provide mental wellness support in an engaging, interactive format.
+<p align="center">
+<i>Where emotional well-being meets immersive gameplay</i>
+</p>
 
-## Current Status
+<img src="https://via.placeholder.com/800x400.png?text=SoulSpark:+Emotional+Companion+Game" alt="SoulSpark Banner" width="600px"/>
 
-SoulSpark is in **early development** (Phase 0). We are currently:
+</div>
 
-- Establishing stable Three.js rendering
-- Building the foundational scene components
-- Implementing core visual elements
-- Planning migration to Unity (see Technology Roadmap below)
+## 🌈 Overview
 
-**Current focus:** Debugging rendering issues and establishing a minimal viable scene.
+**SoulSpark** delivers a groundbreaking approach to mental wellness through gaming. By fusing **stunning 3D environments** with an **AI-driven companion**, we're creating more than just a game—we're building an emotional sanctuary.
 
-## Core Vision
+> **"Gaming meets therapy in a revolutionary new format"**
 
-- **The Spark:** A responsive, customizable companion that provides emotional support
-- **Enchanted Environments:** Ghibli-inspired natural worlds that react to emotional states
-- **Therapeutic Gameplay:** Mini-games based on CBT and mindfulness techniques
-- **Accessibility:** Available across devices via PWA technology
+## ⚡ Key Features
 
-## Technology Roadmap
+<table>
+<tr>
+<td width="50%">
 
-**Current:** The project is implemented using Three.js as our WebGL framework for browser-based 3D rendering.
+### 🔮 The Spark Companion
+- Evolving emotional partner
+- Customizable appearance
+- Mood-responsive behaviors
+- Therapeutic dialogue system
 
-**Future:** We are planning to migrate the project to Unity for more advanced features, better performance, and expanded platform support. This transition will occur after establishing core proof-of-concept functionality in the current Three.js implementation.
+</td>
+<td width="50%">
 
-## Development
+### 🌿 Enchanted Exploration
+- Ghibli-inspired natural worlds
+- Atmospheric storytelling
+- Emotion-responsive environments
+- Hidden discoveries
 
-To run the project locally:
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 💫 Therapeutic Mini-Games
+- LightSync breathing exercises
+- Orb Garden for positive affirmations
+- StarSong for expressive creation
+- Scientifically-informed design
+
+</td>
+<td width="50%">
+
+### 📱 Cross-Platform Experience
+- Progressive Web App foundation
+- Mobile-optimized interfaces
+- Accessible design principles
+- Seamless user experience
+
+</td>
+</tr>
+</table>
+
+## 🚀 Technology Evolution
+
+<div align="center">
+
+**Current Implementation:**
+
+![Three.js](https://img.shields.io/badge/Three.js-WebGL-brightgreen?style=for-the-badge&logo=three.js&logoColor=white)
+
+**Future Platform:**
+
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+
+</div>
+
+We're establishing our core concept with **Three.js** while planning a strategic migration to **Unity** for enhanced graphics capabilities and cross-platform reach.
+
+## 💎 Development Status
+
+SoulSpark is currently in a **foundational development phase**:
+
+- 🔍 Establishing stable rendering architecture
+- 🔧 Developing core interaction systems
+- 🎨 Implementing initial visual prototypes
+- 📝 Planning Unity transition roadmap
+
+## 🛠 Getting Started
 
 ```bash
-# Clone repository
+# Clone the innovation
 git clone https://github.com/Mikebrown0409/Soul-Spark.git
 cd Soul-Spark
 
-# Use a local server (examples)
+# Launch the experience
 npx http-server
 # OR
 python -m http.server
 ```
 
-## Roadmap
+## 📊 Project Roadmap
 
-See [ROADMAP.md](ROADMAP.md) for detailed development phases.
+Our development follows a strategic path to full realization. See our detailed [ROADMAP.md](ROADMAP.md) for the complete journey.
 
 ---
 
-SoulSpark is currently a work in progress. Contributions, feedback, and patience are appreciated as we work to realize this vision. 
+<div align="center">
+<p>
+SoulSpark is under active development by a passionate team committed to mental wellness innovation.
+</p>
+
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+
+</div> 
