@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #000; /* Basic background */
+}
+
+#app-container {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+#ui-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100px; /* Increased height for chat */
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly darker */
+    z-index: 10;
+    display: flex;
+    flex-direction: column; /* Stack controls and chat vertically */
+    justify-content: space-around; /* Space out elements */
+    align-items: center;
+    color: #eee;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+
+#spark-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#orb-counter {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+#bond-level {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #ffb6c1; /* Light Pink for bond */
+}
+
+#glowpoints-display {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fafad2; /* Light Goldenrod Yellow for points */
+}
+
+.minigame-button {
+    margin-left: 20px;
+    padding: 6px 12px;
+    background-color: #6a0dad; /* Purple theme */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.minigame-button:hover {
+    background-color: #5a0cac;
+}
+
+#chat-interface {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#task-display {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-align: center;
+    color: #f0e68c; /* Khaki color for tasks */
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#ui-overlay label {
+    margin-right: 10px;
+}
+
+#ui-overlay input[type="color"] {
+    margin-left: 5px;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#user-input {
+    flex-grow: 1; /* Take available space */
+    padding: 8px 10px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #eee;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#send-button {
+    padding: 8px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#send-button:hover {
+    background-color: #357abd;
+}
+
+#spark-response {
+    margin-top: 5px;
+    font-style: italic;
+    color: #aaa;
+    max-height: 60px; /* Allow up to ~3 lines */
+    overflow-y: auto; /* Add scroll if it exceeds max-height */
+    text-align: center;
+    width: 100%;
+    line-height: 1.4; /* Improve readability */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+#spark-response.thinking {
+    color: #666; /* Dim color while thinking */
+}
+
+/* Breathing Guide Styles */
+.hidden {
+    display: none !important; /* Utility class to hide elements */
+}
+
+#breathing-guide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5; /* Below UI overlay but above canvas */
+    pointer-events: none; /* Don't block interaction */
+}
+
+.guide-circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(173, 216, 230, 0.5); /* Semi-transparent light blue */
+    border-radius: 50%;
+    transition: transform 2s ease-in-out; /* Slower transition for breathing */
+    transform-origin: center center;
+    /* Initial scale set by JS */
+}

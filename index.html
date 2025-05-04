@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulSpark</title>
+
+    <!-- Import Map for Three.js -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.167.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.167.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="manifest" href="manifest.json"> 
+    <meta name="theme-color" content="#317EFB"/> 
+</head>
+<body>
+    <div id="app-container"></div>
+    
+    <!-- Breathing Guide UI (Initially Hidden) -->
+    <div id="breathing-guide" class="hidden">
+        <div class="guide-circle"></div>
+    </div>
+
+    <div id="ui-overlay">
+        <div id="spark-controls">
+            <label for="spark-color">Spark Color:</label>
+            <input type="color" id="spark-color" value="#add8e6">
+            <span id="orb-counter">Glow Orbs: 0</span>
+            <span id="bond-level">Bond Lv: 1</span>
+            <span id="glowpoints-display">GP: 0</span>
+            <button id="soulmap-button" class="minigame-button">SoulMap</button>
+            <button id="lightsync-button" class="minigame-button">LightSync</button>
+            <button id="plant-orb-button" class="minigame-button">Plant Orb</button>
+            <button id="starsong-button" class="minigame-button">StarSong</button>
+        </div>
+        <div id="chat-interface">
+            <input type="text" id="user-input" placeholder="Talk to your Spark...">
+            <button id="send-button">Send</button>
+        </div>
+        <div id="task-display">Current Task: None</div>
+        <div id="spark-response"></div>
+    </div>
+    <script type="module" src="src/main.js?v={datetime.now().timestamp()}"></script>
+</body>
+</html> 

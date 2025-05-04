@@ -1,0 +1,171 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+### Market Analysis: Refining the Companion Focus
+
+The market for mental health apps and mobile games remains robust, as outlined previously (mental health apps market: $6.3B in 2023, projected $26.2B by 2033; mobile gaming: $172B by 2025). However, let’s zero in on the companion aspect to identify existing solutions, gaps, and the potential audience for a game where the companion is the central feature.
+
+#### Existing Solutions with Companion-Like Features
+1. **Woebot**  
+   - **Companion Element**: An AI chatbot that acts as a conversational “friend,” using CBT to offer support for stress and anxiety.  
+   - **Strengths**: Personalized, 24/7 availability, evidence-based.  
+   - **Weaknesses**: Text-based, lacking visual or immersive companionship. Not a game, so it misses the entertainment factor.  
+   - **Market Position**: Popular in the mental health app space but not a direct competitor for a gaming audience.
+
+2. **Replika**  
+   - **Companion Element**: An AI companion for emotional support, allowing users to customize its personality and appearance. It engages in open-ended conversations.  
+   - **Strengths**: Highly personalized, with a focus on companionship over strict therapy.  
+   - **Weaknesses**: Not gamified, and its 3D avatar is basic compared to modern games. Some users find it too open-ended, lacking structure for mental health goals.  
+   - **Market Position**: Appeals to users seeking emotional connection, with a niche but loyal user base.
+
+3. **Animal Crossing: Pocket Camp**  
+   - **Companion Element**: NPC animals act as friendly companions, offering tasks and dialogue in a relaxing, social environment.  
+   - **Strengths**: Immersive, visually appealing, and stress-relieving through casual gameplay.  
+   - **Weaknesses**: Not designed for mental health, so companion interactions lack therapeutic depth.  
+   - **Market Position**: A casual gaming giant, showing the appeal of companion-like NPCs in relaxing games.
+
+4. **Journey to the Savage Planet** (or similar exploration games)  
+   - **Companion Element**: Some exploration games feature AI guides or pets that assist players, creating a sense of partnership.  
+   - **Weaknesses**: Companions are often secondary, with minimal emotional or therapeutic roles.  
+   - **Market Position**: Appeals to gamers but not mental health-focused audiences.
+
+5. **Virtual Pets (e.g., Tamagotchi, Neko Atsume)**  
+   - **Companion Element**: Players care for digital pets, fostering a sense of responsibility and connection.  
+   - **Strengths**: Simple, engaging, and stress-relieving through nurturing mechanics.  
+   - **Weaknesses**: Limited depth in companion interactions and no explicit mental health focus.  
+   - **Market Position**: Niche but enduring, especially among younger audiences.
+
+#### Gap in the Market
+No existing mobile game fully integrates a dynamic, emotionally intelligent companion with:
+- **Therapeutic Intent**: Combining evidence-based mental health techniques (CBT, mindfulness) with a companion that feels like a supportive friend.
+- **Immersive Gameplay**: Leveraging Three.js for 3D visuals and narrative-driven mechanics, unlike the text-based or simplistic visuals of Woebot or Replika.
+- **Viral Appeal**: A companion that’s visually striking, customizable, and shareable, designed to spark social media buzz (e.g., #MyCompanionChallenge).
+- **Gaming Depth**: Unlike virtual pet apps, the companion is part of a rich game world with exploration, puzzles, and storytelling, appealing to both gamers and non-gamers.
+
+#### Potential Audience
+The companion-focused game targets a broad audience, emphasizing emotional connection:
+- **Primary Audience**:
+  - **Age**: 18–44 (aligning with the 35–44 average gamer age, but inclusive of younger adults seeking mental health support).
+  - **Gender**: Slightly female-leaning (37.1% report high anxiety vs. 29.9% male), but universal appeal through customizable companions.
+  - **Interests**: Casual gamers, mental health advocates, and individuals craving emotional connection in a digital age (e.g., 75% of teens cite loneliness as a concern).
+  - **Pain Points**: Stress, anxiety, loneliness; desire for non-judgmental support that’s fun and accessible.
+- **Secondary Audience**:
+  - **Teens (13–17)**: High stress and loneliness rates, drawn to customizable, relatable companions. Parental controls ensure age-appropriate content.
+  - **Older Adults (45+)**: Growing interest in mental health apps for stress relief, especially in home care (54.3% market share).
+- **Geographic Focus**: North America (largest mental health apps market), Asia-Pacific (554 million gamers in China), and Europe (e.g., Germany’s growing mental health apps market).
+- **Size Estimate**: With 2.6 billion gamers and 31.9% global anxiety prevalence, the potential audience is 500 million+, with 50–100 million active users in 2–3 years, driven by the universal appeal of a companion.
+
+---
+
+### New Game Concept: SoulSpark
+
+**Tagline**: “Your Light, Your Guide, Your Spark.”
+
+**Overview**:  
+SoulSpark is a 3D mobile game where players bond with a customizable, emotionally intelligent companion—a **Spark**, a glowing, shape-shifting creature that reflects their emotions and guides them through a vibrant, cosmic world. Built with Three.js for WebGL-powered visuals, the game blends exploration, light puzzles, and therapeutic activities (CBT, mindfulness) into a heartfelt journey to manage stress and anxiety. The Spark is more than an NPC—it’s a dynamic partner that evolves with the player, offering encouragement, humor, and wisdom. With a Studio Ghibli-meets-Tron aesthetic, SoulSpark is designed to go viral through shareable companion moments and a cultural movement around emotional connection.
+
+**Why It’s Viral**:  
+- **Companion Appeal**: The Spark is endlessly customizable, with shareable designs that dominate TikTok and X (e.g., #MySparkChallenge).  
+- **Visual Spectacle**: Three.js delivers jaw-dropping 3D environments and companion animations, making every screenshot a social media gem.  
+- **Emotional Hook**: The Spark feels like a real friend, addressing loneliness and stress in a way that resonates with millions.  
+- **Cultural Movement**: Positioned as “Light Up Your Soul,” with influencer collabs, mental health charity partnerships, and viral challenges.
+
+---
+
+#### Core Features
+1. **The Spark Companion**  
+   - **Appearance**: A glowing, amorphous creature that players customize (e.g., colors, patterns, accessories like starry halos or leafy tails). Three.js renders the Spark with dynamic particle effects and fluid animations, adapting to the player’s mood (e.g., dim and jittery for anxiety, bright and calm for peace).  
+   - **Personality**: Players choose a base personality (e.g., Playful, Wise, Quirky), which evolves based on interactions. The Spark uses a lightweight LLM for natural, empathetic dialogue, offering CBT-based prompts (e.g., “I sense you’re stressed—wanna talk it out or explore a calm zone?”).  
+   - **Bond Mechanics**: Players strengthen their bond through daily interactions (e.g., “feeding” the Spark with positive affirmations, petting via touch gestures). Higher bond levels unlock new Spark forms and story chapters.  
+   - **Therapeutic Role**: The Spark guides players through CBT exercises (e.g., reframing negative thoughts), mindfulness (e.g., breathing sync), and expressive tasks (e.g., naming emotions), making therapy feel like a natural part of the friendship.
+
+2. **Cosmic Exploration**  
+   - Players and their Spark explore a 3D cosmic world rendered with Three.js, featuring biomes like **Nebula Fields** (swirling colors, calming), **Crystal Canyons** (reflective, introspective), and **Stormspires** (turbulent, for facing anxiety).  
+   - Gameplay involves light puzzles (e.g., guiding the Spark’s light to activate bridges, inspired by Journey’s flow), collecting **Glow Orbs** (representing emotions), and unlocking new areas.  
+   - The world reacts to the player’s emotional state, with Three.js dynamically adjusting lighting and particle effects (e.g., storms clear as stress is processed).
+
+3. **Narrative and Emotional Journey**  
+   - The story follows the player and their Spark as they restore balance to the **Soul Cosmos**, a universe disrupted by emotional chaos. The Spark is both guide and co-protagonist, sharing its own “story” (e.g., overcoming its fears).  
+   - Key characters include other Sparks and their owners, forming a community of support. The narrative is non-linear, with choices that shape the Spark’s growth and the world’s fate.  
+   - Emotional beats are tied to real-world struggles (e.g., a chapter about work stress), making the story relatable and therapeutic.
+
+4. **Therapeutic Mini-Games**  
+   - **LightSync**: Players sync their breathing with the Spark’s pulsing glow, calming the environment. Three.js animates the Spark’s light in real-time, synced to touch or microphone input.  
+   - **Orb Garden**: Players plant Glow Orbs in a 3D garden, where each orb represents a positive thought or memory. The garden grows lusher with regular care, reinforcing positive psychology.  
+   - **StarSong**: Players and the Spark create melodies by connecting stars, promoting cognitive absorption and relaxation. Three.js renders a starry sky with interactive particle trails.
+
+5. **SparkShare Social Feature**  
+   - Players share their Spark’s designs, animations, or heartfelt moments (e.g., a quote from the Spark) via **SparkShare**, an in-game social hub.  
+   - Shareable content includes 3D Spark models (viewable in AR), short video clips, and “Spark Quotes” (e.g., “My Spark said, ‘You’re brighter than any storm!’”).  
+   - Community features include anonymous support boards, where players and their Sparks offer encouragement, fostering a global network.
+
+6. **Progress and Rewards**  
+   - Players earn **GlowPoints** for exploration, puzzles, and therapeutic tasks, unlocking Spark customizations (e.g., new forms, voice styles) and world expansions.  
+   - A **SoulMap** tracks emotional progress, visualizing reduced stress/anxiety (inspired by mood trackers).  
+   - No failure states—every action moves the player and Spark closer, ensuring a safe space.
+
+---
+
+#### Technical Implementation with Three.js
+- **3D Rendering**: Three.js powers the Soul Cosmos with WebGL, rendering dynamic biomes (e.g., Nebula Fields with volumetric fog, Crystal Canyons with reflective shaders). Procedural generation ensures unique worlds per player.  
+- **Spark Animation**: The Spark uses Three.js particle systems and morph targets for fluid, mood-based transformations (e.g., spiky for anxiety, soft for calm). Real-time lighting enhances emotional cues.  
+- **Touch Controls**: Intuitive gestures (swipe to move Spark, pinch to zoom, tap to interact), leveraging Three.js’s camera controls for smooth navigation.  
+- **Performance**: Optimized for mid-range devices (e.g., 60 FPS on iPhone 12), with fallbacks (e.g., reduced shader complexity) for low-end phones.  
+- **PWA Delivery**: Built as a Progressive Web App for iOS, Android, and browsers, ensuring broad accessibility with Three.js’s cross-platform rendering.
+
+---
+
+#### Monetization Strategy
+- **Free-to-Play**: Core game is free, with optional ads (skippable) and in-app purchases for Spark customizations (e.g., $1.99 for a cosmic halo).  
+- **SoulSpark Pro Subscription**: $4.99/month unlocks premium Spark forms, exclusive story arcs, and offline play.  
+- **Charity Tie-In**: 10% of profits to mental health charities, enhancing brand trust.  
+- **Sponsorships**: Wellness brands sponsor mini-games (e.g., a mindfulness brand funds LightSync), integrated seamlessly.
+
+---
+
+#### Marketing and Virality Plan
+- **#MySparkChallenge**: A TikTok/X campaign where players share their Spark’s designs or quotes, partnered with gaming and mental health influencers.  
+- **SparkShare Buzz**: The social hub drives organic sharing, with AR Spark models amplifying engagement (e.g., “See my Spark in your room!”).  
+- **App Store Optimization**: Icon features a glowing Spark, keywords target “companion game” and “stress relief,” and trailers showcase Three.js visuals.  
+- **Cultural Movement**: “Light Up Your Soul” campaign includes virtual Spark festivals, merchandise (e.g., Spark plushies), and collabs with artists for real-world Spark art.  
+- **PR Stunts**: Launch events where players’ Sparks are projected in 3D at iconic locations (e.g., Times Square), generating media buzz.
+
+---
+
+#### Therapeutic Validation
+- **Evidence-Based**: Integrates CBT (cognitive restructuring via Spark dialogue), mindfulness (LightSync breathing), and expressive therapy (Orb Garden), backed by studies showing efficacy.  
+- **Clinical Trials**: Partner with universities to measure cortisol and GAD-7 scores, validating impact.  
+- **Advisory Board**: Psychologists and game designers ensure authenticity and avoid trivializing mental health.
+
+---
+
+#### Landscape Creation: The Soul Cosmos
+The game’s 3D world is a living, emotional universe:
+- **Nebula Fields**: A serene starting area with swirling colors and floating platforms, where players bond with their Spark. Three.js renders dynamic nebulae and soft glows.  
+- **Crystal Canyons**: Reflective cliffs where players face inner doubts, with puzzles that reveal hidden paths. Real-time reflections enhance immersion.  
+- **Stormspires**: A turbulent zone for tackling anxiety, with stormy skies that clear as players progress. Particle effects create dramatic weather shifts.  
+- **GlowHaven**: A social hub where players and Sparks meet, share designs, and plant community gardens. Three.js animates a vibrant, ever-growing space.
+
+---
+
+#### Why SoulSpark Will Succeed
+- **Companion-Centric**: The Spark is a game-changer, offering a friend-like bond that addresses loneliness and stress, unlike any existing app or game.  
+- **Viral Potential**: Customizable Sparks and SparkShare tap into social media culture, driving organic growth like Pokémon GO’s AR craze.  
+- **Mass Appeal**: Balances gaming fun (exploration, puzzles) with therapeutic depth, appealing to gamers, mental health seekers, and social media users.  
+- **Tech Edge**: Three.js delivers AAA visuals on a mobile budget, ensuring accessibility and wow-factor.
+
+---
+
+#### Realistic Assessment
+**Challenges**:
+- **Development Complexity**: A dynamic Spark with LLM-driven dialogue and Three.js animations requires a skilled team (est. $600K–$1.2M for MVP).  
+- **Competition**: Replika and casual games like Animal Crossing are strong, but SoulSpark’s therapeutic focus and gaming depth set it apart.  
+- **Retention**: The Spark’s evolving bond aims to keep players engaged, but regular content updates are key.  
+- **Regulations**: Therapeutic claims need clinical backing to meet FDA/EU standards.
+
+**Opportunities**:
+- **First-Mover Advantage**: No game nails the companion-mental health-gaming trifecta, giving SoulSpark a unique niche.  
+- **Global Demand**: Loneliness and anxiety are universal, and gaming’s reach (2.6B users) ensures a massive market.  
+- **Funding Potential**: Crowdfunding (e.g., Kickstarter) or VC interest in mental health tech could fuel development.
